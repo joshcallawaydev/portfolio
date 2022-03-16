@@ -23,7 +23,7 @@ import {
 
 export const Skills = () => {
   return (
-    <div className="flex flex-col justify-center text-center mx-10 mt-20 px-5 lg:mx-44">
+    <div className="flex flex-col justify-center text-center mx-6 mt-20 px-5 lg:mx-44">
       <h1 id="skills" className="flex justify-center hero-feature-text text-5xl mb-20 drop-shadow-md text-black group-hover:text-josh-yellow">
         Skills
       </h1>

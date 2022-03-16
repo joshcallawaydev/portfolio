@@ -5,6 +5,7 @@ import { Timeline } from "react-twitter-widgets";
 import { Button } from "../components/Button";
 import { Projects } from "../components/Projects";
 import { motion, useViewportScroll } from "framer-motion";
+import { Footer } from "../components/Footer";
 
 export default function Home() {
 
@@ -23,7 +24,7 @@ export default function Home() {
       <Header />
       <main className="background-2">
         <section className="flex flex-col justify-center text-center group">
-          <div className="flex flex-col justify-center text-center mx-10 mt-20 cursor-pointer lg:mx-44">
+          <div className="flex flex-col justify-center text-center mx-6 mt-20 cursor-pointer lg:mx-44">
             <h2 id="about" className="flex justify-center hero-feature-text text-5xl mb-20 drop-shadow-md text-black-100">
               About
             </h2>
@@ -32,7 +33,7 @@ export default function Home() {
                 Firstly, thanks so much for visiting my site. It means a lot!{" "}
                 <br />
                 <br />
-                Where do i start? I am a <strong className="font-bold">passionate full stack developer</strong>. I work
+                Where do i start? I am a <strong className="font-extrabold">passionate full stack developer</strong>. I work
                 for a technology company on the south coast and consider myself
                 extremely lucky to be doing what i love.
                 <br />
@@ -48,17 +49,17 @@ export default function Home() {
                 learning new things. I regularly invest in new courses to make
                 sure i keep my skills relevant, and am always open to new,
                 freelance projects.
-                <br />
-                <br />
-                Please take a look at my skills, and projects below...
               </p>
-              <Button title="Lets Chat" />
+              <Button title="Lets Chat" link="https://www.instagram.com/fullstackjosh/" />
             </article>
           </div>
         </section>
         <article>
           <Skills />
         </article>
+        <section>
+          <Projects />
+        </section>
         <div className="flex flex-col justify-center text-center mt-20 mx-6 md:hidden lg:mx-44">
           <h2 className="hero-feature-text text-5xl mb-20 drop-shadow-md text-black-100">
             Twitter
@@ -73,9 +74,9 @@ export default function Home() {
             />
           </article>
         </div>
-        <section>
-          <Projects />
-        </section>
+        <div>
+          <Footer />
+        </div>
       </main>
     </div>
   );

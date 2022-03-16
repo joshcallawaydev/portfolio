@@ -24,13 +24,13 @@ export const Header = () => {
     message = "Good evening";
   }
   return (
-    <header className="flex flex-col background-col">
+    <header className="flex flex-col background-2">
       <div className="flex flex-col sm:flex-row m-5 justify-between items-center h-auto">
-        <nav className="flex flex-grow justify-evenly text-white max-w-xl mt-3">
+        <nav className="flex flex-grow justify-evenly text-new-blue max-w-xl mt-3">
           <NavItem link="/" title="Home" Icon={HomeIcon} />
           <NavItem link="#about" title="About" Icon={UserCircleIcon} />
           <NavItem link="#projects" title="Work" Icon={BriefcaseIcon} />
-          <NavItem link="/ContactMe" title="Contact" Icon={MailIcon} />
+          <NavItem link="/" title="Contact" Icon={MailIcon} />
         </nav>
         <p className="hero-feature-text text-xl mt-3 drop-shadow-md text-josh-yellow sm:mr-6">
           fullStackJosh
@@ -46,7 +46,7 @@ export const Header = () => {
         />
       </div>
       <article className="flex flex-col items-center m-5">
-        <h1 className="mx-4 p-2 text-6xl font-normal text-center	leading-tight md:text-7xl md:px-32 lg:px-52">
+        <h1 className="mx-4 p-2 text-6xl font-bold text-center	leading-tight md:text-7xl md:px-32 lg:px-52">
           {message} Im <strong className="hero-feature-text text-josh-yellow drop-shadow-md">Josh</strong>
         </h1>
         <p className="mx-4 mt-12 text-3xl text-center">
