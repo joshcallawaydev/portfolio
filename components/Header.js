@@ -25,7 +25,7 @@ export const Header = () => {
     message = "Good evening";
   }
   return (
-    <header className="flex flex-col background-2">
+    <header className="flex flex-col bg-another-blue dark:bg-new-blue min-h-screen">
       <div className="flex flex-col sm:flex-row m-5 justify-between items-center h-auto">
         <nav className="flex flex-grow justify-evenly text-new-blue max-w-xl mt-3">
           <NavItem link="/" title="Home" Icon={HomeIcon} />
