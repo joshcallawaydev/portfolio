@@ -56,9 +56,14 @@ a {
   }
 }
 
-.background-2 {
+.background-1 {
   background: #DDE1EF;
   min-height: 100%;
+}
+
+.background-2 {
+  background: #DDE1EF;
+  height: 97vh;
 }
 
 /* .background {

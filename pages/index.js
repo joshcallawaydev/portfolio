@@ -22,7 +22,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <main className="background-2">
+      <main className="background-1">
         <section className="flex flex-col justify-center text-center group">
           <div className="flex flex-col justify-center text-center mx-6 mt-20 cursor-pointer lg:mx-44">
             <h2 id="about" className="flex justify-center hero-feature-text text-5xl mb-20 drop-shadow-md text-black-100">
