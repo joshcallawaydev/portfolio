@@ -6,7 +6,7 @@ export const Projects = () => {
   const [projects, setProjects] = useState([
     {
       name: "Zero",
-      shortDesc: "A commercial product built for Dynamon harnessing AI for sustainable fleet produrement",
+      shortDesc: "A commercial product built for Dynamon harnessing machine learning and AI for sustainable fleet procurement",
       image: { src: "/zero_image.png", alt: "Image of the product Zero UI" },
       link: "https://dynamon.co.uk/zero/",
       siteTech: ['Next.js', 'Python', 'PostgreSQL']
@@ -14,7 +14,7 @@ export const Projects = () => {
     {
       name: "Fore-Play",
       shortDesc:
-        "One of my first projects while learning webdev. Built in Python with Flask and uses MongoDB. A golf tracker.",
+        "One of my first projects while learning webdev. Built in Python with Flask and MongoDB. A golf tracker app.",
       image: {
         src: "/foreplay.png",
         alt: "Social network for golfers, Fore-Play",
@@ -31,7 +31,7 @@ export const Projects = () => {
     },
     {
       name: "Petal Bakehouse",
-      shortDesc: "Ficticious bakery site. The first site i built. Focus was on responsivness",
+      shortDesc: "Ficticious bakery site. The first site i built. Focus was on responsiveness",
       image: { src: "/petalbakehouse.png", alt: "An image of the homepage for Petal Bakehouse" },
       link: "https://github.com/joshcallawaydev/petal-bakehouse",
       siteTech: ['HTML', 'CSS', 'Bootstrap']

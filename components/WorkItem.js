@@ -21,7 +21,7 @@ export const WorkItem = ({
         <strong>{title}</strong>
       </h3>
       <p className="h-44 px-5 py-8 text-lg font-medium text-another-blue">{shortDesc}</p>
-      <ul className="flex flex-row justify-evenly pb-8 text-another-blue list-disc text-lg font-medium ">
+      <ul className="flex flex-row justify-evenly pb-8 text-another-blue list-disc text-sm">
         <li>{techOne}</li>
         <li>{techTwo}</li>
         <li>{techThree}</li>
