@@ -8,6 +8,7 @@ import {
 import Image from "next/image";
 import ProfilePic from "../public/profile_image.png";
 import { useRouter } from "next/router";
+import { motion } from "framer-motion"
 
 export const Header = () => {
   const router = useRouter()
@@ -32,11 +33,11 @@ export const Header = () => {
           <NavItem link="#projects" title="Work" Icon={BriefcaseIcon} />
           <NavItem link="/" title="Contact" Icon={MailIcon} />
         </nav>
-        <p className="hero-feature-text text-xl mt-3 drop-shadow-md text-josh-yellow sm:mr-6">
+        <motion.div initial={{ x: +200}} animate={{ x: 0 }} transition={{ duration: 2 }} className="hero-feature-text text-xl mt-3 drop-shadow-md text-josh-yellow sm:mr-6">
           fullStackJosh
-        </p>
+        </motion.div>
       </div>
-      <div className="flex flex-col items-center ml-3 mr-3 mt-6 mb-5">
+      <motion.div animate={{ rotate: 360 }} transition={{ duration: 1 }} className="flex flex-col items-center ml-3 mr-3 mt-6 mb-5">
         <Image
           src={ProfilePic}
           width="210px"
@@ -44,7 +45,7 @@ export const Header = () => {
           alt="a profile image of host, Josh Callaway"
           className="profile-pic"
         />
-      </div>
+      </motion.div>
       <article className="flex flex-col items-center m-5">
         <h1 className="mx-4 p-2 text-6xl font-bold text-center	leading-tight md:text-7xl md:px-32 lg:px-52">
           {message} Im <strong className="hero-feature-text text-josh-yellow drop-shadow-md">Josh</strong>

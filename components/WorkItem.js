@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { motion } from "framer-motion"
 
 export const WorkItem = ({
   title,
@@ -16,7 +17,7 @@ export const WorkItem = ({
   let height = "210";
 
   return (
-    <div className="mb-14 bg-new-blue rounded-xl shadow-2xl w-80 md:w-2/5">
+    <motion.div initial={{ x: -200}} animate={{ x: 0 }} transition={{ duration: 2 }} className="mb-14 bg-new-blue rounded-xl shadow-2xl w-80 md:w-2/5">
       <h3 className="px-5 pt-8 text-3xl h-20 text-another-blue">
         <strong>{title}</strong>
       </h3>
@@ -29,6 +30,6 @@ export const WorkItem = ({
       <a className="flex" href={siteLink} target="_blank" rel="noreferrer">
         <Image className="rounded-xl" src={src} alt={alt} layout="fixed" width={width} height={height} />
       </a>
-    </div>
+    </motion.div>
   );
 };
