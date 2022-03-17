@@ -11,7 +11,7 @@ import { SocialIcon } from "../components/SocialIcon";
 export const Footer = ({ Icon }) => {
   return (
     <>
-      <div className="flex flex-row justify-evenly cursor-pointer self-center pt-16 pb-4 bg-another-blue">
+      <div className="flex flex-row justify-evenly cursor-pointer self-center pt-14 pb-4 bg-another-blue">
         <SocialIcon
           Icon={SiInstagram}
           link="https://www.instagram.com/fullstackjosh/"
@@ -20,7 +20,6 @@ export const Footer = ({ Icon }) => {
           Icon={SiTwitter}
           link="https://twitter.com/fullstackjoshua"
         />
-        <SocialIcon Icon={SiGithub} link="https://github.com/joshcallawaydev" />
         <SocialIcon
           Icon={SiBuymeacoffee}
           link="https://www.buymeacoffee.com/fullstackjosh"

@@ -1,23 +1,34 @@
 import Image from "next/image";
 
-export const WorkItem = ({ title, shortDesc, src, alt, siteLink, techOne, techTwo, techThree }) => {
+export const WorkItem = ({
+  title,
+  shortDesc,
+  src,
+  alt,
+  siteLink,
+  techOne,
+  techTwo,
+  techThree,
+}) => {
   console.log(shortDesc);
 
-  let width = "460"
-  let height = "250"
+  let width = "460";
+  let height = "210";
 
   return (
-    <a href={siteLink} className="group flex flex-col text-left h-102 w-4/5 mb-14 bg-new-blue rounded-xl md:w-2/5" target="_blank" rel="noreferrer">
-        <h3 className="px-5 pt-8 text-3xl text-another-blue"><strong>{title}</strong></h3>
-        <p className="px-5 py-8 text-lg text-another-blue">{shortDesc}</p>
-        <ul className="flex flex-row justify-evenly pb-8 text-another-blue list-disc">
-          <li>{techOne}</li>
-          <li>{techTwo}</li>
-          <li>{techThree}</li>
-        </ul>
-        <div className="w-full flex justify-center">
-          <Image className="rounded-xl" src={src} alt={alt} layout="intrinsic" width={width} height={height}/>
-        </div>
-    </a>
+    <div className="mb-14 bg-new-blue rounded-xl shadow-2xl w-80 md:w-2/5">
+      <h3 className="px-5 pt-8 text-3xl h-20 text-another-blue">
+        <strong>{title}</strong>
+      </h3>
+      <p className="h-44 px-5 py-8 text-lg font-medium text-another-blue">{shortDesc}</p>
+      <ul className="flex flex-row justify-evenly pb-8 text-another-blue list-disc text-lg font-medium ">
+        <li>{techOne}</li>
+        <li>{techTwo}</li>
+        <li>{techThree}</li>
+      </ul>
+      <a className="flex" href={siteLink} target="_blank" rel="noreferrer">
+        <Image className="rounded-xl" src={src} alt={alt} layout="fixed" width={width} height={height} />
+      </a>
+    </div>
   );
 };

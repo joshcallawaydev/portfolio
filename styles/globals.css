@@ -63,7 +63,7 @@ a {
 
 .background-2 {
   background: #DDE1EF;
-  height: 97vh;
+  min-height: 95vh;
 }
 
 /* .background {

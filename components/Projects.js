@@ -44,7 +44,7 @@ export const Projects = () => {
         Projects
       </h2>
       <h4 className="flex justify-center text-3xl text-center mx-6 mb-20 ">A selection of my favourite work...</h4>
-      <div className="flex flex-row flex-wrap justify-evenly items-center w-full h-auto">
+      <div className="flex flex-row flex-wrap justify-evenly w-full h-auto">
         <WorkItem title={projects[0].name} shortDesc={projects[0].shortDesc} src={projects[0].image.src} alt={projects[0].image.alt} siteLink={projects[0].link} techOne={projects[0].siteTech[0]} techTwo={projects[0].siteTech[1]} techThree={projects[0].siteTech[2]}/>
         <WorkItem title={projects[1].name} shortDesc={projects[1].shortDesc} src={projects[1].image.src} alt={projects[1].image.alt} siteLink={projects[1].link} techOne={projects[1].siteTech[0]} techTwo={projects[1].siteTech[1]} techThree={projects[1].siteTech[2]}/>
         <WorkItem title={projects[2].name} shortDesc={projects[2].shortDesc} src={projects[2].image.src} alt={projects[2].image.alt} siteLink={projects[2].link} techOne={projects[2].siteTech[0]} techTwo={projects[2].siteTech[1]} techThree={projects[2].siteTech[2]}/>
