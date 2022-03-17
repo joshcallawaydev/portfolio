@@ -5,7 +5,7 @@ import {
   SiBuymeacoffee,
   SiBiolink,
   SiLinkedin,
-} from "react-icons/Si";
+} from "react-icons/si";
 import { SocialIcon } from "../components/SocialIcon";
 
 export const Footer = ({ Icon }) => {

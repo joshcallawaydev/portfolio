@@ -19,7 +19,7 @@ import {
   SiGithub,
   SiBootstrap,
   SiAmazonaws,
-} from "react-icons/Si";
+} from "react-icons/si";
 
 export const Skills = () => {
   return (
