@@ -31,7 +31,7 @@ export const Header = () => {
           <NavItem link="/" title="Home" Icon={HomeIcon} />
           <NavItem link="#about" title="About" Icon={UserCircleIcon} />
           <NavItem link="#projects" title="Work" Icon={BriefcaseIcon} />
-          <NavItem link="/" title="Contact" Icon={MailIcon} />
+          <NavItem link="#contact" title="Contact" Icon={MailIcon} />
         </nav>
         <motion.div initial={{ x: +200}} animate={{ x: 0 }} transition={{ duration: 2 }} className="hero-feature-text text-xl mt-3 drop-shadow-md text-josh-yellow sm:mr-6">
           fullStackJosh

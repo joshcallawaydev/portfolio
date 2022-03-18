@@ -84,7 +84,7 @@ export default function Home() {
           </article>
         </div>
         <div className="flex flex-col mt-20 justify-center">
-          <h2 className="hero-feature-text text-center text-5xl drop-shadow-md text-black-100">
+          <h2 className="hero-feature-text text-center text-5xl drop-shadow-md text-black-100" id="contact">
             Contact Me
           </h2>
           <ContactUs />
