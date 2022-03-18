@@ -13,10 +13,10 @@ export const WorkItem = ({
   console.log(shortDesc);
 
   let width = "460";
-  let height = "210";
+  let height = "180";
 
   return (
-    <div className="mb-14 bg-new-blue rounded-xl shadow-2xl w-80 md:w-2/5">
+    <div className="mb-14 bg-new-blue rounded-xl shadow-2xl w-80">
       <h3 className="px-5 pt-8 text-3xl h-20 text-another-blue">
         <strong>{title}</strong>
       </h3>

@@ -83,7 +83,7 @@ export default function Home() {
             />
           </article>
         </div>
-        <div className="flex flex-col mt-20 justify-center">
+        <div className="flex flex-col mt-20 items-center">
           <h2 className="hero-feature-text text-center text-5xl drop-shadow-md text-black-100" id="contact">
             Contact Me
           </h2>

@@ -25,7 +25,7 @@ export const ContactUs = () => {
   };
 
   return (
-    <div className="flex flex-row justify-center w-full">
+    <div className="flex flex-row justify-center w-96">
       <form
         className="flex flex-col w-full mx-8 mt-20 bg-white shadow-md rounded-xl px-8 pt-6 pb-8 mb-4"
         ref={form}
