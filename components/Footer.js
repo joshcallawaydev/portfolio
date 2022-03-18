@@ -31,7 +31,7 @@ export const Footer = ({ Icon }) => {
         />
       </div>
       <section className="flex flex-row justify-evenly pb-4">
-        <p>Made with &#9829; by <em className="hero-feature-text">Josh Callaway</em> &copy;</p>
+        <p>Made with &#9829; by <em className="hero-feature-text">fullStackJosh</em> &copy;</p>
       </section>
     </>
   );
