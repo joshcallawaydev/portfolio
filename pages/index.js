@@ -6,7 +6,7 @@ import { Button } from "../components/Button";
 import { Projects } from "../components/Projects";
 import { motion, useViewportScroll } from "framer-motion";
 import { Footer } from "../components/Footer";
-import { ContactUs } from "../components/Form";
+import MessageForm from "../components/MessageForm";
 
 export default function Home() {
   const { scrollYProgress } = useViewportScroll();
@@ -83,12 +83,12 @@ export default function Home() {
             />
           </article>
         </div>
-        <div className="flex flex-col mt-20 items-center">
+        {/* <div className="flex flex-col mt-20 items-center">
           <h2 className="hero-feature-text text-center text-5xl drop-shadow-md text-black-100" id="contact">
             Contact Me
           </h2>
-          <ContactUs />
-        </div>
+          <MessageForm />
+        </div> */}
         <div>
           <Footer />
         </div>
